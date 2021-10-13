@@ -1,0 +1,65 @@
+
+
+  a {
+    color: rgb(179, 255, 18);
+    font-size:60px;
+    text-decoration: none;
+  }
+
+  .saw{
+    color:white;
+  }
+  #active{
+        color:blue;
+      }
+
+   h1{
+    color: rgb(179, 255, 18);
+    font-size:500px;
+    text-align:center;
+    border-bottom: rgb(179, 255, 18) 1px solid;
+    margin:0px;
+    padding:100px;
+  }
+  ol{
+    width: 380px;
+    border-right: rgb(179, 255, 18) 1px solid;
+    margin:0px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  #second{
+    color: white;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 420px 3fr;
+  }
+  div{
+    color: rgb(179, 255, 18);
+  }
+
+  @media (max-width:1050px) {
+    #grid{
+      display:block;
+    }
+    ol{
+      border-right: none;
+      text-align: center;
+    }
+     h1{
+       border-bottom: none;
+       text-align: center;
+     }
+
+  }
+/*  inline level element */
+</style>
+
+
+/* 공통된 스타일 태그 한 파일로 빼내고 각 페이지에 링크로 넣기-->
+마치 마스터페이지와 같은 개념
